@@ -38,7 +38,7 @@
             </tr>
             <?php
         }
-        get_footer();
+       
         ?>
        
     </table>
@@ -59,3 +59,4 @@
             alert(JSON.stringify(myJson.brand.brand_name));
         }
     </script>
+  <?php  get_footer(); ?>
